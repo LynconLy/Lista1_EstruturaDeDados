@@ -12,7 +12,7 @@ int main()
     float menorTemp = 9999;
     float maiorTemp = -9999;
     float tempMedia = 0;
-    int countInfMedia = 0;
+    int InfMedia = 0;
     
     for (int i = 0; i < diasAno; i++) 
     {
@@ -38,7 +38,7 @@ int main()
     {
         if (tempMed[i] < tempMedia)
         {
-            countInfMedia++;
+            InfMedia++;
         }
     }
     
